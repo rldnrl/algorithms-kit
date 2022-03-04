@@ -6,7 +6,6 @@ module.exports = {
     "!**/node_modules/**",
   ],
   transform: {
-    // https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object
     "^.+\\.(js|jsx|ts|tsx)$": [
       "babel-jest",
       {
